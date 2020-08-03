@@ -11,7 +11,7 @@ import './styles.css';
 function Landing() {
     return (
         <div id="page-landing">
-            <div id="paga-landing-content" className="container">
+            <div id="page-landing-content" className="container">
                 <div className="logo-container">
                     <img src={logoImg} alt="Proffy" />
                     <h2>Sua plataforma de estudos</h2>
@@ -28,9 +28,9 @@ function Landing() {
                         Estudar
                     </a>
 
-                    <a href="" className="study">
-                        <img src={giveClassesIcon} alt="Estudar" />
-                        Estudar
+                    <a href="" className="give-classes">
+                        <img src={giveClassesIcon} alt="Dar Aulas" />
+                        Dar Aulas
                     </a>
                 </div>
 
