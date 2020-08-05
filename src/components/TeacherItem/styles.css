@@ -28,14 +28,20 @@
   color: var(--color-text-title);
 }
 
-.teacher-item>p {
+.teacher-item header div span {
+  font-size: 1.6rem;
+  display: block;
+  margin-top: 0.4rem;
+}
+
+.teacher-item > p {
   padding: 0 2rem;
   font-size: 1.6rem;
   line-height: 2.8rem;
 }
 
 .teacher-item footer {
-  padding: 3.3rem 2rem;
+  padding: 3.2rem 2rem;
   background: var(--color-box-footer);
   border-top: 1px solid var(--color-line-in-white);
   margin-top: 3.2rem;
@@ -50,7 +56,7 @@
   display: block;
 }
 
-.teacher-item footer button {
+.teacher-item footer a {
   width: 20rem;
   height: 5.6rem;
   background: var(--color-secundary);
@@ -62,41 +68,36 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  transition: 0.2s;
+  transition: 0.5s;
+  text-decoration: none;
 }
 
-.teacher-item footer button:hover {
+.teacher-item footer a:hover {
   background: var(--color-secundary-dark);
 }
 
-.teacher-item header div span {
-  font-size: 1.6rem;
-  display: block;
-  margin-top: 0.4rem;
-}
-
 @media (min-width: 700px) {
-  .teacher-item header, .teacher-item footer {
+  .teacher-item header,
+  .teacher-item footer {
     padding: 3.2rem;
   }
-  .teacher-item>p {
+
+  .teacher-item > p {
     padding: 0 3.2rem;
   }
+
   .teacher-item footer p strong {
     display: initial;
     margin-left: 1.6rem;
   }
-  .teacher-item footer button {
+
+  .teacher-item footer a {
     width: 24.5rem;
     font-size: 1.6rem;
-    justify-items: center;
-    text-decoration: none;
+    justify-content: center;
   }
+
   .teacher-item footer a {
-    text-decoration: none;
-    border: 0px;
-  }
-  .teacher-item footer button img {
-    margin-right: 0.0rem;
+    margin-right: 1.6rem;
   }
 }
