@@ -116,12 +116,10 @@ function TeacherForm() {
               name="subject"
               label="Matéria"
               options={[
-                { value: 'Angular', label: 'Angular 10' },
+                { value: 'Haskell', label: 'Haskell' },
                 { value: 'React', label: 'React JS' },
-                { value: 'Javascript', label: 'Javascript moderno' },
-                { value: 'Net Core', label: 'NET Core WebApi / Desktop' },
-                { value: 'NodeJs', label: 'Node JS' },
-                { value: 'Sql', label: 'Sql Server' },
+                { value: 'Elixir', label: 'Elixir' },
+                { value: 'C#', label: '#' }
               ]}
               value={subject}
               onChange={handleChange}
