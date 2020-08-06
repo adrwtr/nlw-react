@@ -1,5 +1,5 @@
 import React from 'react';
-import whatsAppIcon from '../../assets/icons/whatsapp.svg';
+import whatsAppIcon from '../../assets/images/icons/whatsapp.svg';
 import api from '../../services/api';
 
 import './styles.css';
